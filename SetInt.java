@@ -15,7 +15,6 @@ public class SetInt {
     }
 
     public boolean has(int p) {
-        // VOTRE CODE
         for (int i=0; i<tab.length;i++){
             if (tab[i]==p){
                 return true;
@@ -26,7 +25,6 @@ public class SetInt {
     }
 
     public void add(int p) {
-        // VOTRE CODE     
          if (has(p)==false){
             if (nbElements < size) {
                 tab[nbElements++] = p;
@@ -35,7 +33,6 @@ public class SetInt {
     }
 
     public  void trier( ){
-      // VOTRE CODE
       for (int i = 1; i < nbElements; i++) {
         int key = tab[i]; //nombre present dans loop
         int j = i - 1; //nombre precedant
